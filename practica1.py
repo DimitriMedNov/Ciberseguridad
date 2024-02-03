@@ -11,7 +11,7 @@ print("----------------------------------Ejercicio 2----------------------------
 i = 0
 while(True):
     i = i + 1
-    j = random.getrandbits(1024)
+    j = random.getrandbits(1536)
     esPrimo = number.isPrime(j)
     if(esPrimo):
         print("En la iteración:", i, "se econtró el primo", j, "\n")
