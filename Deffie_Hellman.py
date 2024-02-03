@@ -1,4 +1,3 @@
-from Crypto.Hash import SHA256
 import hashlib
 import random
 
